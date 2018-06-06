@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eosj.iml" filepath="$PROJECT_DIR$/.idea/modules/eosj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eosj_main.iml" filepath="$PROJECT_DIR$/.idea/modules/eosj_main.iml" group="eosj" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eosj_test.iml" filepath="$PROJECT_DIR$/.idea/modules/eosj_test.iml" group="eosj" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mejson/mejson.iml" filepath="$PROJECT_DIR$/.idea/modules/mejson/mejson.iml" group="mejson" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mejson/mejson_main.iml" filepath="$PROJECT_DIR$/.idea/modules/mejson/mejson_main.iml" group="mejson" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mejson/mejson_test.iml" filepath="$PROJECT_DIR$/.idea/modules/mejson/mejson_test.iml" group="mejson" />
+    </modules>
+  </component>
+</project>

@@ -51,7 +51,8 @@ public class TransactionTest {
     public static void testStart() {
         privateKey = new EosPrivateKey("5KQD4VwQknSMtb1pWSmhQYRfyH9KDXraPbbmHtYTfL6vMnJPK1s");
         publicKey = new EosPublicKey("EOS6wVRZDXaDG5hFbebHxgvJ62V9aVVuyaRnAVTHcnSSgKb3HG135");
-        ChainID = StringUtils.fromHexString("706a7ddd808de9fc2b8879904f3b392256c83104c1d544b38302cc07d9fca477");
+        // rpc service localhost:8080/v1/chain/get_info  -> chain_id
+        ChainID = StringUtils.fromHexString("aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906");
     }
 
     /// EOSIO transaction content packaging use cases

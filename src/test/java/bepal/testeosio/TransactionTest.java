@@ -57,8 +57,9 @@ public class TransactionTest {
     /// EOSIO transaction content packaging use cases
     @Test
     public void testTx() {
-        int block_num = 0;
-        int ref_block_prefix = 0;
+        int block_num = 0;// The most recent irreversible block # last_irreversible_block_num
+        int ref_block_prefix = 0; // encode last_irreversible_block_id # last_irreversible_block_id[8-16]
+        // ref https://github.com/EOSIO/eos/blob/master/libraries/chain/transaction.cpp set_reference_block function
 
         /// generate transaction
         // [1] make block base info
@@ -106,8 +107,10 @@ public class TransactionTest {
 
     @Test
     public void testBuyRam() {
-        int block_num = 0;
-        int ref_block_prefix = 0;
+        int block_num = 0;// The most recent irreversible block # last_irreversible_block_num
+        int ref_block_prefix = 0; // encode last_irreversible_block_id # last_irreversible_block_id[8-16]
+        // ref https://github.com/EOSIO/eos/blob/master/libraries/chain/transaction.cpp set_reference_block function
+
 
         // [1] make block base info
         Transaction transaction = new Transaction();
@@ -154,8 +157,10 @@ public class TransactionTest {
 
     @Test
     public void testSellRam() {
-        int block_num = 0;
-        int ref_block_prefix = 0;
+        int block_num = 0;// The most recent irreversible block # last_irreversible_block_num
+        int ref_block_prefix = 0; // encode last_irreversible_block_id # last_irreversible_block_id[8-16]
+        // ref https://github.com/EOSIO/eos/blob/master/libraries/chain/transaction.cpp set_reference_block function
+
 
         // [1] make block base info
         Transaction transaction = new Transaction();
@@ -200,8 +205,10 @@ public class TransactionTest {
 
     @Test
     public void testDelegatebw() {
-        int block_num = 0;
-        int ref_block_prefix = 0;
+        int block_num = 0;// The most recent irreversible block # last_irreversible_block_num
+        int ref_block_prefix = 0; // encode last_irreversible_block_id # last_irreversible_block_id[8-16]
+        // ref https://github.com/EOSIO/eos/blob/master/libraries/chain/transaction.cpp set_reference_block function
+
 
         // [1] make block base info
         Transaction transaction = new Transaction();
@@ -249,8 +256,10 @@ public class TransactionTest {
 
     @Test
     public void testUnDelegatebw() {
-        int block_num = 0;
-        int ref_block_prefix = 0;
+        int block_num = 0;// The most recent irreversible block # last_irreversible_block_num
+        int ref_block_prefix = 0; // encode last_irreversible_block_id # last_irreversible_block_id[8-16]
+        // ref https://github.com/EOSIO/eos/blob/master/libraries/chain/transaction.cpp set_reference_block function
+
 
         // [1] make block base info
         Transaction transaction = new Transaction();
@@ -297,8 +306,10 @@ public class TransactionTest {
 
     @Test
     public void testRegProxy() {
-        int block_num = 0;
-        int ref_block_prefix = 0;
+        int block_num = 0;// The most recent irreversible block # last_irreversible_block_num
+        int ref_block_prefix = 0; // encode last_irreversible_block_id # last_irreversible_block_id[8-16]
+        // ref https://github.com/EOSIO/eos/blob/master/libraries/chain/transaction.cpp set_reference_block function
+
 
         // [1] make block base info
         Transaction transaction = new Transaction();
@@ -345,8 +356,10 @@ public class TransactionTest {
 
     @Test
     public void testVote() {
-        int block_num = 0;
-        int ref_block_prefix = 0;
+        int block_num = 0;// The most recent irreversible block # last_irreversible_block_num
+        int ref_block_prefix = 0; // encode last_irreversible_block_id # last_irreversible_block_id[8-16]
+        // ref https://github.com/EOSIO/eos/blob/master/libraries/chain/transaction.cpp set_reference_block function
+
 
         // [1] make block base info
         Transaction transaction = new Transaction();

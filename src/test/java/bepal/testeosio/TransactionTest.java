@@ -241,7 +241,7 @@ public class TransactionTest {
         // @notes: 0: the authorizer cannot undelegatebw.
         //         1: the authorizer can undelegatebw.
         //         It is suggested to fill in 1
-        mdata.Transfer = 0;
+        mdata.Transfer = 1;
         message.Data = mdata;
 
         // [4] sign action

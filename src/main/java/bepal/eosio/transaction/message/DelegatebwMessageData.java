@@ -38,6 +38,11 @@ public class DelegatebwMessageData implements MessageData {
     public AccountName Receiver;
     public Asset StakeNetQuantity;
     public Asset StakeCpuQuantity;
+    /**
+    * @notes: 0: the authorizer cannot undelegatebw.
+    *         1: the authorizer can undelegatebw.
+    *         It is suggested to fill in 1
+    */
     public long Transfer;
 
     @Override

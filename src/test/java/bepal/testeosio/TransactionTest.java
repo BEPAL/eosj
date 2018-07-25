@@ -238,6 +238,9 @@ public class TransactionTest {
         mdata.Receiver = new AccountName(sendfrom);
         mdata.StakeNetQuantity = new Asset("1.0000 SYS");
         mdata.StakeCpuQuantity = new Asset("1.0000 SYS");
+        // @notes: 0: the authorizer cannot undelegatebw.
+        //         1: the authorizer can undelegatebw.
+        //         It is suggested to fill in 1
         mdata.Transfer = 0;
         message.Data = mdata;
 

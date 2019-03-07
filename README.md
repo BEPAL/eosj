@@ -1,3 +1,9 @@
+# Notice
+
+The project is moved to a new repository
+
+[bepalcore-java](https://github.com/Bepal/bepalcore-java)
+
 # eosj
 
 The project was spun off from the bepal hardware wallet.
